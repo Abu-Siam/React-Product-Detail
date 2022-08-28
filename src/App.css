@@ -23,7 +23,63 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.background-color{
+  background-color: #61dafb;
+}
+.font-style{
+  font-weight: bolder;
+  color: #676464 !important;
+  font-family: 'Helvetica';
+  font-size: 18px !important;
+}
+.button-green{
+  background-color: yellowgreen; /* Green */
+  border: none;
+  color: white !important;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  height: fit-content;
+  /*padding: 15px 32px;*/
+  padding-bottom: -5px;
+  padding-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px ;
+  margin-top: 7px;
 
+}
+.navbar-style{
+  display: flex;
+  justify-content: space-between !important;
+}
+.button-orange{
+  background-color: coral; /* Green */
+  border: none;
+  color: white !important;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  height: fit-content;
+  margin-top: 7px;
+
+  /*padding: 15px 32px;*/
+  padding-bottom: -5px;
+  padding-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px ;
+}
+
+.ml-20{
+  margin-left: 20px;
+}
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +92,174 @@
     transform: rotate(360deg);
   }
 }
+
+.app{
+  max-width: 1200px;
+  width: 100%;
+  margin: 100px auto;
+  /*box-shadow: 0 0 5px #ccc;*/
+}
+.details{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.details .big-img{
+  max-width: 500px;
+  min-width: 95%;
+  max-height: 50%;
+  overflow: hidden;
+  margin: 25px;
+  border: 1px solid #ddd;
+
+}
+.big-img img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.details .box{
+  max-width: 500px;
+  min-width: 290px;
+  margin: 25px;
+}
+.box .row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.box .row h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.box .row span{
+  color: black;
+}
+.box .colors button{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+  outline: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.box p{
+  line-height: 1.5;
+  margin: 15px 0;
+}
+.thumb{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.thumb img{
+  width: 170px;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  margin-left: 20px;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+.thumb img.active{
+  opacity: 1;
+  border: 1px solid lightseagreen;
+}
+.box .cart{
+  background: #333;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin-top: 15px;
+}
+.active-color{
+  color:green !important;
+  text-decoration:  yellowgreen underline !important;
+}
+@media (max-width: 500px){
+  .thumb{
+    height: 50px;
+  }
+  .thumb img{
+    width: 50px;
+  }
+}
+
+.black-boxed-text{
+
+  font-weight: bolder;
+  color:#dddddd;
+  border-radius: 10px;
+  border:none;
+  background-color: #676464;
+  width:250px;
+  margin:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.orange-boxed-text{
+
+  font-weight: bolder;
+  color:#dddddd;
+  border-radius: 10px;
+  border:none;
+  background-color: coral;
+  width:250px;
+  margin:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.green-boxed-text{
+
+  font-weight: bolder;
+  color:#dddddd;
+  border-radius: 10px;
+  border:none;
+  background-color: yellowgreen;
+  width:450px;
+  margin:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.grey-boxed-text{
+
+  font-weight: bolder;
+  color: #343434;
+  border-radius: 10px;
+  border:none;
+  background-color: lightgrey;
+  width:120px;
+
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
+}
+
+.green-button{
+  color:#dddddd;
+  background-color: yellowgreen;
+  border:none;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+.input-style{
+  width:100px;
+  border: 1px solid orange;
+  height: 50px;
+  border-radius: 10px;
+
+}
+
